@@ -1,5 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Приват мир");
+        String str = "Hello world";
+        String[] words = str.split(" "); // оператор  Split разделили строку символами
+        for (String word : words) {
+            System.out.println(word);
+        }
     }
 }
